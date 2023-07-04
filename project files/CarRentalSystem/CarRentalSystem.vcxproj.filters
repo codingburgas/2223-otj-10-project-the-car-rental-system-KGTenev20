@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CarRentalSystem.DAL">
+      <UniqueIdentifier>{67bfa241-f75f-4653-b2f6-1178995b1218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CarRentalSystem.BLL">
+      <UniqueIdentifier>{0887c002-1953-4993-bb8e-8f38b4ebc529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CarRentalSystem.PL">
+      <UniqueIdentifier>{0a81ac80-3fb4-488d-b58e-a11b7f21f7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CarRentalSystem.DAL\Models">
+      <UniqueIdentifier>{24348681-9276-4dce-b33c-5c2c40fe7471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CarRentalSystem.DAL\Repositories">
+      <UniqueIdentifier>{78fb4894-322a-418e-ac4b-8652fae3e4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CarRentalSystem.BLL\Services">
+      <UniqueIdentifier>{21068913-93af-4431-bace-697ac04fb433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CarRentalSystem.PL\Views">
+      <UniqueIdentifier>{cc65fec9-9e4c-4d09-b1b5-92279c395697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CarRentalSystem.PL\Controllers">
+      <UniqueIdentifier>{8f15b87d-4eff-4492-bdbf-b00dbd33b513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Implementations">
+      <UniqueIdentifier>{d5c7bfc9-c2f9-4eb2-a4a9-a6dedce4c0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Root">
+      <UniqueIdentifier>{fe6bab84-039e-4e1d-ac9e-f990761b9a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Implementations\Vehicle">
+      <UniqueIdentifier>{391bf988-5d5c-4f65-bf2c-414d9c507aad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VehicleModel.h">
+      <Filter>Header Files\CarRentalSystem.DAL\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleRepository.h">
+      <Filter>Header Files\CarRentalSystem.DAL\Repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleService.h">
+      <Filter>Header Files\CarRentalSystem.BLL\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleController.h">
+      <Filter>Header Files\CarRentalSystem.PL\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleView.h">
+      <Filter>Header Files\CarRentalSystem.PL\Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\Root</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleController.cpp">
+      <Filter>Source Files\Implementations\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleModel.cpp">
+      <Filter>Source Files\Implementations\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleRepository.cpp">
+      <Filter>Source Files\Implementations\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleService.cpp">
+      <Filter>Source Files\Implementations\Vehicle</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
