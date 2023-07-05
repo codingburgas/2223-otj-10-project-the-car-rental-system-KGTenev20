@@ -1,42 +1,53 @@
-# 2223-10: On the job training (OTJ) project
+# Car Rental System - C++ Project
 
-# The Car Rental System
-This document describes the OTJ project for 10th graders. **It will be updated frequently**.
+This is the repository for the C++ implementation of the Car Rental System project developed by CodingBurgas.
 
-Features
-The Car Rental Company provides the following features:
+## Project Description
 
-Car browsing: Users can browse available cars with detailed information such as make, model, and year.
+The Car Rental System is a C++ console application that simulates a car rental service. It allows users to manage car inventory, make reservations, calculate rental fees, and generate reports.
 
+## Getting Started
 
+To get started with the Car Rental System project, follow these steps:
 
-Technologies Used
-The car rental system is built using the following technologies:
-C++
+1. Clone the repository:
+git clone https://github.com/codingburgas/2223-otj-10-project-the-car-rental-system-KGTenev20.git
 
+2. Compile the source code:
+g++ -o car_rental_system main.cpp
 
-Contributing
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request. For major changes, please discuss them first by opening an issue to avoid any conflicts.
+3. Run the application:
+./car_rental_system
 
+## Usage
 
-Acknowledgements
-This car rental system is inspired by various similar projects and online tutorials. Special thanks to the open-source community for their invaluable contributions.
+The Car Rental System application provides the following functionality:
 
+- Browsing available cars
+- Making car reservations
+- Calculating rental fees
+- Generating rental reports
 
+## Contributing
 
-How to Use
-Clone this repository to your local machine.
-Navigate to the project directory using the command line.
+If you want to contribute to the Car Rental System project, follow these steps:
 
+1. Fork the repository on GitHub.
+   
+2. Clone your forked repository:
+git clone https://github.com/your-username/2223-otj-10-project-the-car-rental-system-KGTenev20.git
 
+3. Create a new branch for your changes:
+git checkout -b your-branch-name
 
-If you have any questions or need further assistance, please contact our support team at: don't
+4. Make your modifications and commit the changes:
+git commit -am "Add your commit message here"
 
-Enjoy renting cars with our Car Rental Company!
+5. Push your changes to your forked repository:
+git push origin your-branch-name
 
+6. Create a pull request on GitHub.
 
-* Programming language: C++
-* Visual Studio 2022 (latest release)
+## License
 
-
-Additional requirements will be added later.
+The Car Rental System project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
